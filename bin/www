@@ -9,6 +9,7 @@ var debug = require('debug')('myapp:server');
 var http = require('http');
 
 var hi = require("hi");
+var mtnhan = require("mtnhan");
 
 /**
  * Get port from environment and store in Express.
@@ -35,6 +36,7 @@ server.on('listening', onListening);
  * Normalize a port into a number, string, or false.
  */
 
+console.log("hihi tôi là MTNhan");
 function normalizePort(val) {
   var port = parseInt(val, 10);
 
